@@ -20,22 +20,7 @@ Lineart colorization is a critical stage in professional content creation, yet a
 - **High Temporal Stability**: Excellent consistency for sequential/ video lineart colorization, suitable for animation production
 - **Professional Grade Results**: Achieves state-of-the-art performance in both quantitative metrics and human user studies
 
-
-## Features
-
-- **Lineart** (required): lineart image as structural guidance
-- **Text prompt** (optional): scene description to guide colorization
-- **History frames** (optional): one or more previously generated frames for temporal consistency
-- **Color points** (optional): spatial color hints overlaid on the lineart
-- **ID image** (optional): character reference image for identity preservation
-
-Two model variants are supported:
-| Variant | Flag | Checkpoints needed |
-|---------|------|--------------------|
-| Without AS-Gate | *(default)* | `--checkpoint_path` |
-| With AS-Gate | `--use_as_gate` | `--as_gate_path` + `--checkpoint_path` |
-
-## Usage
+## 🚀 Usage
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -93,16 +78,3 @@ If you find OmniColor useful in your research or work, please cite our paper:
   year={2026}
 }
 ```
-*(Will be updated with author information after paper acceptance)*
-
-## 🚨 Note
-This is the official open-source implementation of the OmniColor paper submitted to ECCV 2026. The code and pre-trained models are released upon paper acceptance. For the current version, the code is fully functional and the pre-trained weights will be updated soon.
-
-## 🤝 Contributing
-We welcome contributions to OmniColor! If you have any ideas, bug fixes, or feature requests, please open an issue or submit a pull request. For major changes, please discuss them with us first via issues.
-
-## 📧 Contact
-If you have any questions about the project, please contact us at: [your-email@example.com]
-
----
-**OmniColor** | ECCV 2026 Submission | A Unified Framework for Multi-modal Lineart Colorization
