@@ -26,7 +26,7 @@ git clone https://github.com/your-username/OmniColor.git
 cd OmniColor
 ```
 
-### Step 2: Create a Conda Environment (Optional)
+### Step 2: Create a Conda Environment
 ```bash
 conda create -n omnicolor python=3.10
 conda activate omnicolor
