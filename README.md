@@ -4,7 +4,9 @@
 Lineart colorization is a critical stage in professional content creation, yet achieving precise and flexible results under diverse user constraints remains a significant challenge. To address this, we propose OmniColor, a unified framework for multi-modal lineart colorization that supports arbitrary combinations of control signals. Specifically, we systematically categorize guidance signals into two types: spatially-aligned conditions and semantic-reference conditions. For spatially-aligned inputs, we employ a dual-path encoding strategy paired with a Dense Feature Alignment loss to ensure rigorous boundary preservation and precise color restoration. For semantic-reference inputs, we utilize a VLM-only encoding scheme integrated with a Temporal Redundancy Elimination mechanism to filter repetitive information and enhance inference efficiency. To resolve potential input conflicts, we introduce an Adaptive Spatial-Semantic Gating module that dynamically balances multi-modal constraints. Experimental results demonstrate that OmniColor achieves superior controllability, visual quality, and temporal stability, providing a robust and practical solution for lineart colorization.
 
 ## 🌟 Key Features
+
 <p align="center"><img src="assets/omnicolor_demo.png" alt="OmniColor Multi-modal Colorization Demo" width="900"><br><em>OmniColor's unified multi-modal colorization capabilities with diverse control signal combinations</em></p>
+
 - **Unified Multi-modal Control**: Supports arbitrary combinations of lineart, text prompts, color hints, identity references, temporal history frames and other control signals
 - **Two-category Condition Encoding**: Spatially-aligned (pixel-level constraint) and semantic-reference (high-level guidance) condition separation for targeted processing
 - **Dual-path Encoding for Spatial Conditions**: VAE + VLM dual encoder with Dense Feature Alignment (DFA) loss for precise boundary preservation and color restoration
