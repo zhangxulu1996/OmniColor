@@ -61,7 +61,7 @@ python inference.py \
 ```
 
 ## 📜 License
-This project is released under the **Apache License 2.0** license. See [LICENSE](LICENSE) for more details.
+This project is released under the **Apache License 2.0** license.
 
 ## 📖 Citation
 If you find OmniColor useful in your research or work, please cite our paper:
