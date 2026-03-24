@@ -42,7 +42,7 @@ python inference.py \
     --output example/output.png
 ```
 
-### Run With AS-Gate + all conditions
+### Or Run With AS-Gate + all conditions
 
 ```bash
 python inference.py \
