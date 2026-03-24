@@ -1,0 +1,11 @@
+{
+    "example/inputs/0.png": [
+        {"center_x_ratio": 0.2703, "center_y_ratio": 0.1958, "color": {"r": 201, "g": 157, "b": 112}}, 
+        {"center_x_ratio": 0.7336, "center_y_ratio": 0.2833, "color": {"r": 214, "g": 231, "b": 239}}, 
+        {"center_x_ratio": 0.3516, "center_y_ratio": 0.7903, "color": {"r": 237, "g": 197, "b": 169}}, 
+        {"center_x_ratio": 0.1547, "center_y_ratio": 0.9208, "color": {"r": 45, "g": 39, "b": 39}}, 
+        {"center_x_ratio": 0.1109, "center_y_ratio": 0.0597, "color": {"r": 127, "g": 185, "b": 225}}, 
+        {"center_x_ratio": 0.2102, "center_y_ratio": 0.6319, "color": {"r": 131, "g": 92, "b": 59}}, 
+        {"center_x_ratio": 0.6219, "center_y_ratio": 0.8056, "color": {"r": 10, "g": 4, "b": 4}}
+    ]
+}
