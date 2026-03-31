@@ -1,5 +1,7 @@
 # OmniColor: A Unified Framework for Multi-modal Lineart Colorization
 
+<a href='https://arxiv.org/abs/2603.27531'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+
 ## 📝 Paper Abstract
 Lineart colorization is a critical stage in professional content creation, yet achieving precise and flexible results under diverse user constraints remains a significant challenge. To address this, we propose OmniColor, a unified framework for multi-modal lineart colorization that supports arbitrary combinations of control signals. Specifically, we systematically categorize guidance signals into two types: spatially-aligned conditions and semantic-reference conditions. For spatially-aligned inputs, we employ a dual-path encoding strategy paired with a Dense Feature Alignment loss to ensure rigorous boundary preservation and precise color restoration. For semantic-reference inputs, we utilize a VLM-only encoding scheme integrated with a Temporal Redundancy Elimination mechanism to filter repetitive information and enhance inference efficiency. To resolve potential input conflicts, we introduce an Adaptive Spatial-Semantic Gating module that dynamically balances multi-modal constraints. Experimental results demonstrate that OmniColor achieves superior controllability, visual quality, and temporal stability, providing a robust and practical solution for lineart colorization.
 
@@ -66,10 +68,13 @@ This project is released under the **Apache License 2.0** license.
 ## 📖 Citation
 If you find OmniColor useful in your research or work, please cite our paper:
 ```bibtex
-@inproceedings{omnicolor2026,
-  title={OmniColor: A Unified Framework for Multi-modal Lineart Colorization},
-  author={Anonymous},
-  booktitle={European Conference on Computer Vision (ECCV)},
-  year={2026}
+@misc{zhang2026omnicolorunifiedframeworkmultimodal,
+      title={OmniColor: A Unified Framework for Multi-modal Lineart Colorization}, 
+      author={Xulu Zhang and Haoqian Du and Xiaoyong Wei and Qing Li},
+      year={2026},
+      eprint={2603.27531},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.27531}, 
 }
 ```
