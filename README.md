@@ -37,7 +37,10 @@ conda create -n omnicolor python=3.10
 conda activate omnicolor
 ```
 
-### Step 3: Run without AS-Gate
+### Step 3: Download Model Weights
+We will release the model weights soon ...
+
+### Step 4: Run without AS-Gate
 
 ```bash
 python inference.py \
