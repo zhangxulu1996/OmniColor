@@ -35,6 +35,8 @@ cd OmniColor
 ```bash
 conda create -n omnicolor python=3.10
 conda activate omnicolor
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
 ### Step 3: Download Model Weights

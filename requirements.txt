@@ -1,0 +1,13 @@
+# Core inference dependencies
+accelerate==1.7.0
+diffusers==0.34.0
+numpy==1.26.4
+Pillow==11.2.1
+safetensors==0.5.3
+scipy==1.15.3
+sentencepiece==0.2.0
+torch==2.6.0
+torchvision==0.21.0
+
+# Qwen-Image support used by OmniColor
+transformers @ git+https://github.com/as12138/transformers.git@219c83c4b535efb6e340be50b707802d029cf41b

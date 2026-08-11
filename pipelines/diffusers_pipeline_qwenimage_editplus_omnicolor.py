@@ -39,7 +39,7 @@ from diffusers.pipelines.pipeline_utils import DiffusionPipeline
 from diffusers.pipelines.qwenimage.pipeline_output import QwenImagePipelineOutput
 
 # v3.4 核心，使用新的 transformer_qwenimage_priority
-from pipelines.transformer_qwenimage_priority_v3_8 import QwenImageTransformer2DModel
+from pipelines.transformer_qwenimage_priority_omnicolor import QwenImageTransformer2DModel
 
 
 if is_torch_xla_available():
