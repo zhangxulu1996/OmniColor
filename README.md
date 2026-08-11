@@ -38,7 +38,7 @@ conda activate omnicolor
 ```
 
 ### Step 3: Download Model Weights
-We will release the model weights soon ...
+The DiT and AS-Gate weights can be downloaded from [Hugging Face](https://huggingface.co/zxl1127/OmniColor/tree/main).
 
 ### Step 4: Run without AS-Gate
 
